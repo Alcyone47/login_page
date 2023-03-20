@@ -85,7 +85,6 @@ input[type="submit"]{
     outline: none;
     background: linear-gradient(92.56deg, #4EC0EA -8.33%, rgba(78, 192, 234, 0.121) 100%);
     border-radius: 8px;
-    min-width: 250px;
     max-width: 600px;
 }
 
@@ -110,8 +109,12 @@ h3{
 }
 
 @media screen and (max-width: 768px){
+    .icn_strip{
+        width: 90%;
+    }
+
     .icn{
-        height: 7vw;
+        height: 8.5vw;
         max-height: 50px;
         margin-right: 5px;
     }
@@ -127,6 +130,11 @@ h3{
 
     .f_input{
         font-size: 20px;
+        height: 7.5vh;
+    }
+
+    .inp{
+        margin-bottom: 45px;
     }
 
     ::-webkit-input-placeholder {
@@ -135,6 +143,12 @@ h3{
 
     h3{
         font-size: 15px;
+    }
+
+    input[type="submit"]{
+        width: 45vw;
+        height: 8vh;
+        font-size: 20px;
     }
 }
 
