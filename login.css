@@ -121,7 +121,7 @@ h3{
 
     .card{
         margin: 10px;
-        min-height: none;
+        min-height: 50vh;
         height: auto;
     }
 
