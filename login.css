@@ -42,6 +42,7 @@ body{
     padding: 25px 50px 50px 50px;
     margin: 10px 10px;
     background: linear-gradient(151.38deg, #46849B 11.12%, rgba(70, 132, 155, 0.123) 82.35%);
+    border-radius: 8px;
 }
 
 h1{
